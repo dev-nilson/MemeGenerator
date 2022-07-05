@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  background: #5D0DE0;
+  color:#FFFFFF;
+  padding: 20px 30px;
+}
+
+.header-logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+main {
+  padding: 60px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 15px;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 10px;
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  background: #5D0DE0;
+  color:#FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme-image {
+  max-width: 100%;
+  margin-top: 25px;
+}
+
+.meme-text {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 35px;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
